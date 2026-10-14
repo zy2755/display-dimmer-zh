@@ -16,7 +16,11 @@
 
 - Windows 10/11
 - 已在 Microsoft Store 安装 Display Dimmer（免费版即可）
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)（只用来编译本仓库自带的工具，不需要你写 C#）
+- [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) 运行时或 SDK
+
+> **不想装 SDK？** 从 [Releases](https://github.com/zy2755/display-dimmer-zh/releases) 下载
+> `BamlTool-v1.zip`，解压到 `tools\bin\`。这样就只装 .NET 8 **运行时**就够了（比 SDK 小得多）。
+> 没放预编译包也没关系，`build.ps1` 会自己编译源码——只是那样才需要 SDK，且首次编译要联网。
 
 ### 第 1 步：取回官方文件
 
@@ -79,6 +83,7 @@ display-dimmer-zh/
 │   ├── embed_icon.py          # 把图标写回 exe 的 PE 资源
 │   └── migrate_settings.py    # 迁移已汉化的设置项
 ├── tools/BamlTool/        # 自研 C# 工具（改 BAML 与 IL 字符串）
+├── tools/bin/             # 放预编译 BamlTool 的地方（可选，见 Releases）
 ├── orig/                  # 你放官方原版 DLL 的地方（不进仓库）
 ├── app/                   # 绿色版程序目录（不进仓库）
 └── out/                   # 构建产物（不进仓库）
