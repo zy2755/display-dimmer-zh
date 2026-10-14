@@ -100,10 +100,13 @@ if ($Dotnet -and (Test-Path -LiteralPath $Dotnet)) {
 
 if (-not $dotnetExe) {
     Fail @"
-没找到 dotnet。BamlTool 需要 .NET 8 SDK 来编译（目标框架 net8.0-windows，用到 WPF）。
+没找到 dotnet。
+
+BamlTool 是 .NET 8 程序，运行它需要 .NET 8 运行时；
+如果想现场编译源码，则需要 .NET 8 SDK（用到 WPF，只能在 Windows 上编译）。
 
 两种办法：
-  1) 安装 .NET 8 SDK：https://dotnet.microsoft.com/download/dotnet/8.0
+  1) 安装 .NET 8 SDK（含运行时）：https://dotnet.microsoft.com/download/dotnet/8.0
   2) 用免安装版，然后用 -Dotnet 参数指过来：
          .\build.ps1 -Dotnet "D:\dotnet8sdk\dotnet.exe"
 "@
@@ -120,21 +123,44 @@ Write-Ok "dotnet = $dotnetExe"
 Write-Ok "SDK 版本 = $v"
 
 # ---------------------------------------------------------------- 3. 编译 BamlTool
-Write-Step "3/5 编译 BamlTool"
+Write-Step "3/5 准备 BamlTool"
 
-$btDll = Join-Path $root 'tools\BamlTool\bin\Release\net8.0-windows\BamlTool.dll'
+# 两条路：
+#   A. 用预编译包 —— 从 Releases 下载 BamlTool-v1.zip，解压到 tools\bin\
+#      这样不用装 .NET SDK，有 .NET 8 运行时就够了
+#   B. 现场编译 —— 需要 .NET 8 SDK（首次编译要联网拉 NuGet 包 Mono.Cecil）
+$prebuilt = Join-Path $root 'tools\bin\BamlTool.dll'
+$built    = Join-Path $root 'tools\BamlTool\bin\Release\net8.0-windows\BamlTool.dll'
 
-if ($Rebuild -or -not (Test-Path -LiteralPath $btDll)) {
+$btDll = $null
+
+if ((Test-Path -LiteralPath $prebuilt) -and -not $Rebuild) {
+    $btDll = $prebuilt
+    Write-Ok "使用预编译包：tools\bin\BamlTool.dll"
+} elseif ((Test-Path -LiteralPath $built) -and -not $Rebuild) {
+    $btDll = $built
+    Write-Ok "使用已编译产物（-Rebuild 可强制重编译）"
+} else {
+    # 编译需要 SDK，运行只需要运行时，这里先确认确实有 SDK
+    $sdks = & $dotnetExe --list-sdks 2>$null
+    if (-not $sdks) {
+        Fail @"
+本机只有 .NET 运行时，没有 SDK，无法现场编译 BamlTool。
+
+两个办法：
+  1) 从本仓库 Releases 下载 BamlTool-v1.zip，解压到 tools\bin\ 再跑本脚本
+  2) 安装 .NET 8 SDK：https://dotnet.microsoft.com/download/dotnet/8.0
+"@
+    }
     Write-Warn "正在编译（首次编译需要联网下载 NuGet 包 Mono.Cecil，请稍候）..."
     $proj = Join-Path $root 'tools\BamlTool\BamlTool.csproj'
     & $dotnetExe build $proj -c Release --nologo
     if ($LASTEXITCODE -ne 0) { Fail "编译失败，退出码 $LASTEXITCODE" }
+    $btDll = $built
     Write-Ok "编译完成"
-} else {
-    Write-Ok "已存在编译产物，跳过（-Rebuild 可强制重编译）"
 }
 
-if (-not (Test-Path -LiteralPath $btDll)) { Fail "编译后仍然找不到 $btDll" }
+if (-not $btDll -or -not (Test-Path -LiteralPath $btDll)) { Fail "找不到 $btDll" }
 
 # ---------------------------------------------------------------- 4. 合并词典
 Write-Step "4/5 合并三遍词典"

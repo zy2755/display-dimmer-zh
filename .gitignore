@@ -10,6 +10,9 @@ app/
 
 # 构建产物
 out/
+tools/bin/*.dll
+tools/bin/*.exe
+tools/bin/*.json
 tools/BamlTool/bin/
 tools/BamlTool/obj/
 
