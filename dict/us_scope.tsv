@@ -1,0 +1,66 @@
+﻿# 按方法限定的替换表（usx 的第 4 个参数）
+#
+# 格式：方法名子串 <TAB> 原文 <TAB> 译文
+#   * 制表符写 \t，换行写 \n，回车写 \r，反斜杠写 \\
+#   * 「方法名子串」用 Ordinal 子串匹配（不分大小写），匹配 t.FullName + "." + m.Name
+#
+# 为什么必须有这个文件：
+#   "." / " (" / ")" 这类**共享的标点串**在程序里被界面文案和诊断日志、CLI 输出、
+#   版本号解析同时引用（"." 全程序 66 处，横跨 UsageTelemetryClient.GetAppVersionBucket、
+#   WhatsChangedParser.NormalizeVersionTag 等）。全局替换会把 "2.2.12.0" 变成 "2。2。12。0"，
+#   直接破坏版本比较。所以这些串只允许在指定的界面方法里替换。
+#
+# 本文件里的每条规则都用 _sites.py 列出的全部引用点核对过，确认没有漏网的非界面引用；
+# 故意跳过的：
+#   * PresetsSettingsTab::GetUniqueName —— 生成的是预设「名字」("名称 (2)")，
+#     改全角括号会让重名检测的生成/解析两边必须完全对称，收益低风险高，保持原样。
+#   * LinkedDisplaysEditorWindow::RebuildDisplayChecks —— 同上，属于标识串。
+
+# ---------- 句末句号：只在这些界面方法里把 "." 换成 "。" ----------
+DisplayRuleStatusPolicy::BuildNoRulesStatus	.	。
+DisplayRuleStatusPolicy::AppendPausedOnSomeDisplays	.	。
+DisplayRuleStatusPolicy::TryBuildAllRulesTurnedOffStatus	.	。
+DisplayRuleStatusPolicy::TryBuildPerAppActiveStatus	.	。
+DisplayRuleStatusPolicy::TryBuildScheduleActiveStatus	.	。
+DisplayRuleStatusPolicy::TryBuildScheduleIdleStatus	.	。
+RuleStatusTextFormatter::StatusPeriodIfNotTruncated	.	。
+ScheduleStatusTextFormatter::ActiveForEnabledDisplays	.	。
+ScheduleStatusTextFormatter::ActiveOnAllDisplays	.	。
+ScheduleStatusTextFormatter::ActiveOnScope	.	。
+ScheduleStatusTextFormatter::ActiveFromLinkedScope	.	。
+ScheduleStatusTextFormatter::NextForEnabledDisplays	.	。
+ScheduleStatusTextFormatter::NextOnAllDisplays	.	。
+ScheduleStatusTextFormatter::NextOnScope	.	。
+SettingsWindow::BuildScheduleStatusToolTipDetails	.	。
+SettingsWindow::SetActivePerAppStatusText	.	。
+SettingsWindow::UpdateActiveScheduleIndicator	.	。
+SettingsWindow::OnKeyboardBrightnessKeyDetected	.	。
+RuleReorderHintVisualState::Refresh	.	。
+PreviewEndedWindow	.	。
+ProDirectPurchaseWindow	.	。
+ProSettingsTab::SetPreviewCountdownText	.	。
+ProSettingsTab::SetTemperaturePreviewCountdownText	.	。
+ProUpsellCopyPolicy::GetTemperaturePreviewEndedCopy	.	。
+HotkeyEditorValidator::TryValidateBrightnessKeyGestureForAction	.	。
+
+# ---------- 括号：界面里的 " (" / ")" 换全角 ----------
+DisplayRuleStatusPolicy::TryBuildPerAppActiveStatus	 (	（
+DisplayRuleStatusPolicy::TryBuildScheduleActiveStatus	 (	（
+PerAppStatusTextFormatter::ActiveOnTarget	 (	（
+PerAppStatusDisplayLabelPolicy::FormatDisplayLabel	 (	（
+AutomationChannelStatusPolicy::Format	 (	（
+
+DisplayRuleStatusPolicy::BuildSourceSuffix	)	）
+DisplayRuleStatusPolicy::TryBuildPerAppActiveStatus	)	）
+DisplayRuleStatusPolicy::TryBuildScheduleActiveStatus	)	）
+RuleStatusToolTipPolicy::OriginSuffix	)	）
+ScheduleStatusTextFormatter::FormatEnabledDisplaysSourceSuffix	)	）
+
+# ---------- 仅在某处出现、但同类里别的代码也在用同一个串：限定掉 ----------
+# 'Unknown' 全程序 95 处（遥测/版本格式化都在用），只在支持邮件里换成中文
+SettingsWindow::OpenDirectLicenseSupportEmailSafe	Unknown	未知
+# 'Temperature ' 两处，CLI 那处是命令行校验提示，不能动
+AutomationPresetPreviewPolicy::Create	Temperature 	温度 
+# 'display' 五处，其余是标签匹配/CLI，只改预设预览
+AutomationPresetPreviewPolicy::Create	display	显示器
+AutomationPresetPreviewPolicy::Create	displays	显示器

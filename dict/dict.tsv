@@ -1,0 +1,253 @@
+App rules	应用规则
+Learn how app rules work	了解应用规则的工作方式
+No app rules set up yet.	尚未设置任何应用规则。
+Free includes 1 app rule for All Displays 	免费版为「所有显示器」提供 1 条应用规则 
+View Pro features	查看专业版功能
+Reorder app rules	调整应用规则顺序
+Drag app rule cards by their icons to choose which rule is checked first for this display.	拖动应用规则卡片上的图标，可调整此显示器优先匹配哪条规则。
+Got it	知道了
+No app rules added. Click Add rule to create one.	尚未添加应用规则。点击「添加规则」新建一条。
+Drag this app rule to change its priority.	拖动此应用规则可调整其优先级。
+Enable or disable this app rule.	启用或停用此应用规则。
+App	应用
+Browse...	浏览...
+Levels	数值
+Saved presets · Pro	已保存的预设 · 专业版
+Use custom levels or a saved Pro preset	使用自定义数值或已保存的专业版预设
+Edit preset	编辑预设
+Include brightness in this app rule. Unchecked means this rule does not change brightness; a schedule can supply it.	在应用规则中包含亮度。取消勾选表示此规则不改变亮度，可由计划任务提供。
+Brightness	亮度
+Include contrast in this app rule. Unchecked means this rule does not change contrast; a schedule can supply it.	在应用规则中包含对比度。取消勾选表示此规则不改变对比度，可由计划任务提供。
+Contrast	对比度
+Temperature	色温
+Pro	专业版
+Copy to...	复制到...
+Remove	移除
+Add rule	添加规则
+Presets	预设
+Save display settings and recall them together.	保存显示器设置，一键整体调用。
+Show presets in main window	在主窗口中显示预设
+Show or hide the preset shortcut in the main window.	显示或隐藏主窗口中的预设快捷入口。
+Show or hide the preset selector in the main window. This takes effect immediately and does not change saved presets.	显示或隐藏主窗口中的预设选择器。此设置立即生效，不会更改已保存的预设。
+Reorder presets	调整预设顺序
+Drag preset icons to change their order in lists and menus.	拖动预设图标可更改它们在列表和菜单中的顺序。
+Create presets for every setup	为每种使用场景创建预设
+Example · 	示例 · 
+Choose which displays and levels a preset saves, then recall them together.	选择预设要保存哪些显示器与数值，之后可一键整体调用。
+Movie night	观影模式
+Brightness · Temperature	亮度 · 色温
+2 displays	2 台显示器
+Display settings	显示器设置
+All included displays	所有已包含的显示器
+Create presets with Pro	使用专业版创建预设
+One-time purchase · No subscription	一次性购买 · 无需订阅
+See all Pro features	查看全部专业版功能
+No presets yet. Create one to save the levels you use most.	暂无预设。新建一个来保存你最常用的数值。
+Drag this icon to reorder presets.	拖动此图标可调整预设顺序。
+Name	名称
+Included	已包含
+Turn off to skip this display when recalling the preset; its saved levels are kept.	关闭后，调用预设时将跳过此显示器；其已保存的数值会保留。
++ Add connected display…	+ 添加已连接的显示器…
+Add a connected display that is not yet in this preset.	添加尚未包含在此预设中的已连接显示器。
+Forget disconnected display	忘记已断开的显示器
+Permanently forget this disconnected display and its saved levels.	永久忘记此已断开的显示器及其已保存的数值。
+Include at least one display before saving this preset.	保存此预设前，请至少包含一台显示器。
+This older preset applies to the selected display. Choose a display and convert it to save an explicit display scope.	此旧版预设适用于所选显示器。请选择一台显示器并转换，以保存明确的显示器范围。
+Use selected display	使用所选显示器
+This display is excluded. Its saved levels are kept until you include it again.	此显示器已被排除。在重新包含它之前，其已保存的数值会保留。
+Duplicate	复制
+Duplicate this preset (up to 300 total).	复制此预设（最多 300 个）。
+Add preset	添加预设
+Create a preset draft from current display levels. Click Apply to save it.	根据当前显示器数值创建预设草稿。点击「应用」保存。
+Hotkeys	热键
+Learn how hotkeys work	了解热键的工作方式
+No hotkeys set up yet.	尚未设置任何热键。
+Free includes 2 hotkeys for All Displays 	免费版为「所有显示器」提供 2 个热键 
+Reorder hotkeys	调整热键顺序
+Drag hotkey cards by their icons to set their list order.	拖动热键卡片上的图标可设置其列表顺序。
+No hotkeys added. Click Add hotkey to create one.	尚未添加热键。点击「添加热键」新建一个。
+Drag to reorder hotkeys	拖动可调整热键顺序
+Enable or disable this hotkey	启用或停用此热键
+Key combo	按键组合
+Detect	检测
+Action	操作
+Value (%)	数值 (%)
+Saved preset	已保存的预设
+No presets yet	暂无预设
+Select a preset	选择预设
+Add hotkey	添加热键
+Reorder your displays	调整显示器顺序
+Drag display cards to match the order you want to use in Display Dimmer.	拖动显示器卡片，使其顺序与你在 Display Dimmer 中想使用的顺序一致。
+See what's new in this version	查看此版本的更新内容
+What's changed	更新内容
+What's changed in version 2.2.12	2.2.12 版本的更新内容
+This update adds saved Pro presets, compact automation controls, and smoother everyday brightness control.	本次更新新增了可保存的专业版预设、更紧凑的自动化控件，以及更顺手的日常亮度控制。
+Have feedback about this update?	对本次更新有反馈？
+View the full Display Dimmer changelog	查看 Display Dimmer 完整更新日志
+Full changelog	完整更新日志
+Overview	概述
+Control brightness and contrast across your displays from one place, with automation when you need it.	在一处统一控制各台显示器的亮度与对比度，需要时还能自动执行。
+Display Dimmer supports schedules, app rules, global hotkeys, linked display groups, local automation through its CLI and API, and DDC/CI monitor control where available.	Display Dimmer 支持计划任务、应用规则、全局热键、联动显示器分组、通过 CLI 和 API 实现的本地自动化，并在支持时使用 DDC/CI 控制显示器。
+Key features	主要功能
+ Adjust brightness and contrast across multiple displays.	 在多台显示器上调整亮度与对比度。
+ Automate brightness with schedules and app rules.	 通过计划任务和应用规则自动调整亮度。
+ Use global hotkeys for fast control.	 使用全局热键快速控制。
+ Local automation and command-line support.	 支持本地自动化与命令行。
+ Link displays together and control them as a group.	 将显示器联动，作为一个分组统一控制。
+ DDC/CI where supported, with gamma fallback when needed.	 在支持时使用 DDC/CI，必要时回退到 gamma 调节。
+Independent development	独立开发
+Display Dimmer is independently developed and maintained by a solo developer. The optional one-time Pro upgrade supports ongoing development, testing, and support while keeping the free version genuinely useful.	Display Dimmer 由一位独立开发者开发和维护。可选的一次性专业版升级用于支持持续的开发、测试与技术支持，同时让免费版依然真正好用。
+Support	支持
+Email: 	邮箱： 
+Send Diagnostics	发送诊断信息
+Website: 	网站： 
+GitHub: 	GitHub： 
+Repository	代码仓库
+Copyright 2025–2026 Vantari Works	版权所有 2025–2026 Vantari Works
+Hide to tray	隐藏到托盘
+Preset	预设
+Choose a preset	选择预设
+Brightness control is disabled	亮度控制已停用
+Neutral · 50%	中性 · 50%
+Contrast control is disabled	对比度控制已停用
+Open the Pro overview	打开专业版概览
+Preview · 30 min	预览 · 30 分钟
+Neutral · 6,500 K	中性 · 6,500 K
+Temperature control is disabled	色温控制已停用
+Unlock blue light filtering and color temperature with Display Dimmer Pro	使用 Display Dimmer 专业版解锁蓝光过滤和色温调节
+Manual override active	手动覆盖已生效
+Resume automation	恢复自动化
+Reset display	重置显示器
+Settings	设置
+Open Settings for more controls.	打开「设置」可使用更多控制项。
+Windows or another app reset screen brightness. Gamma Guard can watch for this and restore your brightness automatically.	Windows 或其他应用重置了屏幕亮度。Gamma Guard 可以监测这种情况并自动恢复你的亮度。
+Not now	暂不
+Open Settings	打开设置
+View GitHub docs	查看 GitHub 文档
+Themes	主题
+Theme preview active. Ends in	主题预览已启用，剩余
+Keep this theme	保留此主题
+Blue light filter preview. Ends in	蓝光过滤预览，剩余
+Keep with Pro	用专业版保留
+Display Dimmer Pro	Display Dimmer 专业版
+Presets, automation, and display options.	预设、自动化与显示选项。
+Limited-time: 25% off Pro until Feb 1st.	限时优惠：2 月 1 日前购买专业版享 25% 折扣。
+One-time purchase. 	一次性购买。 
+No subscription.	无需订阅。
+Microsoft Store	微软商店
+Buy with your Microsoft account	使用 Microsoft 账户购买
+Buy	购买
+Direct purchase	直接购买
+Secure checkout with Lemon Squeezy	通过 Lemon Squeezy 安全结账
+Already purchased? 	已经购买过？ 
+Restore Pro	恢复专业版
+Having trouble purchasing Pro?	购买专业版遇到问题？
+For multiple displays	多显示器场景
+Per-display targeting, fullscreen app targeting and linked groups.	按显示器定向、全屏应用定向与联动分组。
+Per-display targeting	按显示器定向
+Choose individual displays for schedules, app rules and hotkeys. Set color temperature separately for each display.	可为计划任务、应用规则和热键分别指定显示器，还能为每台显示器单独设置色温。
+Schedules →	计划任务 →
+App rules →	应用规则 →
+Hotkeys →	热键 →
+Temperature →	色温 →
+Fullscreen app targeting	全屏应用定向
+Apply a fullscreen app rule to the display showing the fullscreen app. Standard fullscreen detection remains free.	将全屏应用规则应用到正在显示该全屏应用的显示器。标准全屏检测仍然免费。
+Open app rules →	打开应用规则 →
+Custom linked display groups	自定义联动显示器分组
+Create your own groups of linked displays.	创建你自己的联动显示器分组。
+Open linked groups →	打开联动分组 →
+Temperature and Pro theme previews are time-limited.	色温和专业版主题的预览有时间限制。
+Pro themes	专业版主题
+Dark palettes	深色配色
+Slate	石板
+Graphite	石墨
+Coffee	咖啡
+Neon Fuchsia	霓虹紫红
+Moss	苔藓
+Lunar	月夜
+Light palettes	浅色配色
+Solar	暖阳
+Cardinal	绯红
+Pearl	珍珠
+Lavender	薰衣草
+Free themes	免费主题
+Base	基础
+System	跟随系统
+Light	浅色
+Dark	深色
+Sky family	天空系列
+Sky (Auto)	天空（自动）
+Sky Light	天空浅色
+Sky Dark	天空深色
+Behavior	行为
+Appearance	外观
+App behavior	应用行为
+Show tray icon	显示托盘图标
+Automatically hide when opened from tray	从托盘打开后自动隐藏
+Briefly show the main window after selected brightness, contrast, or temperature changes, only while it is hidden. It appears without taking focus.	亮度、对比度或色温发生指定变化后，短暂显示主窗口（仅在它处于隐藏状态时）。显示时不抢占焦点。
+Briefly show main window when levels change	数值变化时短暂显示主窗口
+Show for	显示时长
+Enter a whole number from 1 to 60 seconds.	请输入 1 到 60 之间的整数秒数。
+seconds	秒
+Show after changes from:	以下来源发生变化时显示：
+Command line / scripts	命令行 / 脚本
+Schedules	计划任务
+Don’t show over fullscreen apps	全屏应用上方不显示
+Only when hidden. Appears without taking focus.	仅在隐藏时。显示时不抢占焦点。
+Start with Windows	随 Windows 启动
+Launch behavior:	启动行为：
+Show window	显示窗口
+Requires 'Show application in system tray'	需要开启「在系统托盘中显示应用」
+Start in tray	从托盘启动
+Brightness behavior	亮度行为
+Reapply saved brightness on launch	启动时重新应用已保存的亮度
+Reset DDC/CI displays to default brightness on exit	退出时将 DDC/CI 显示器恢复为默认亮度
+Use relative brightness for grouped display sliders	联动显示器滑块使用相对亮度
+Restore gamma brightness if Windows or another app resets it	Windows 或其他应用重置亮度时恢复 gamma 亮度
+Controls	控件
+Scheduled brightness	计划亮度
+Per-app brightness	按应用亮度
+Hotkey support	热键支持
+Theme and window presentation.	主题与窗口表现。
+Theme:	主题：
+Window opacity:	窗口不透明度：
+Window:	窗口：
+Always on top	总在最前
+Sliders	滑块
+Choose which controls appear for each display.	选择每台显示器要显示哪些控件。
+Show contrast slider	显示对比度滑块
+Show temperature slider	显示色温滑块
+Advanced	高级
+Learn how Local automation works	了解本地自动化的工作方式
+Local automation	本地自动化
+Control displays with local scripts and command-line tools	使用本地脚本和命令行工具控制显示器
+Manage...	管理...
+Uses the preset’s saved displays and levels.	使用预设保存的显示器与数值。
+Saved preset automation requires Pro.	使用已保存预设的自动化需要专业版。
+Learn how schedules work	了解计划任务的工作方式
+No schedules set up yet.	尚未设置任何计划任务。
+Free includes 1 schedule for All Displays 	免费版为「所有显示器」提供 1 条计划任务 
+Reorder schedules	调整计划任务顺序
+Drag schedule cards by their icons to choose which rule is checked first for this display.	拖动计划任务卡片上的图标，可调整此显示器优先匹配哪条规则。
+No schedules added. Click Add schedule to create one.	尚未添加计划任务。点击「添加计划」新建一条。
+ until 	 至 
+until	至
+Drag this schedule to change its priority.	拖动此计划任务可调整其优先级。
+Enable or disable this schedule.	启用或停用此计划任务。
+Start	开始
+am	上午
+pm	下午
+End	结束
+Include brightness in this schedule. Unchecked means this rule does not change brightness.	在计划任务中包含亮度。取消勾选表示此规则不改变亮度。
+Include contrast in this schedule. Unchecked means this rule does not change contrast.	在计划任务中包含对比度。取消勾选表示此规则不改变对比度。
+Add schedule	添加计划
+Close	关闭
+Displays	显示器
+App Rules	应用规则
+General	通用
+About	关于
+Enable DDC/CI to let Display Dimmer control your monitor's brightness directly when supported. If it does not work properly, you can disable DDC/CI to use software dimming instead.	启用 DDC/CI 后，在支持的情况下 Display Dimmer 可直接控制显示器亮度。如果工作不正常，可以关闭 DDC/CI 改用软件调光。
+Create a schedule or app rule to automate your brightness.	创建计划任务或应用规则，让亮度自动调整。
+Start Display Dimmer automatically when you sign in to Windows.	登录 Windows 后自动启动 Display Dimmer。
+Click Apply to save your changes.	点击「应用」保存更改。
+Apply	应用

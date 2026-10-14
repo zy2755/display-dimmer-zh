@@ -1,0 +1,470 @@
+No linked displays.	没有联动显示器。
+Disconnected display	已断开的显示器
+Manage presets…	管理预设…
+All displays	所有显示器
+No saved presets yet	暂无已保存的预设
+Unnamed preset	未命名预设
+Display Dimmer update	Display Dimmer 更新
+New version available	有新版本可用
+A newer version of Display Dimmer is available with improvements and fixes.	Display Dimmer 有新版本可用，包含改进和修复。
+Not now	暂不
+Brightness up	调高亮度
+Brightness down	调低亮度
+All Displays	所有显示器
+The license key could not be activated.	许可证密钥无法激活。
+Fullscreen app	全屏应用
+Fullscreen app - host display only	全屏应用 — 仅主机显示器
+multiple apps	多个应用
+Set brightness	设置亮度
+Contrast up	调高对比度
+Contrast down	调低对比度
+Set contrast	设置对比度
+Temperature up	调高色温
+Temperature down	调低色温
+Set temperature	设置色温
+Apply preset	应用预设
+Resume automation	恢复自动化
+Toggle display enabled	切换显示器启用状态
+Enable display	启用显示器
+Disable display	停用显示器
+Pause automation	暂停自动化
+Toggle automation	切换自动化状态
+Reset levels	重置数值
+Saved presets	已保存的预设
+App Rules	应用规则
+App Rules saved	应用规则已保存
+Saved the completed app rules.	已保存完成的应用规则。
+Review display	查看显示器
+Hotkeys saved	热键已保存
+Saved the completed hotkeys.	已保存完成的热键。
+Create linked display group	创建联动显示器分组
+Edit linked display group	编辑联动显示器分组
+Link displays together	将显示器联动
+Choose two or more connected displays. A display can be part of multiple linked display groups, but the same group cannot be created twice. If linked rules overlap, the higher group in the Displays list wins.	请选择两台或更多已连接的显示器。一台显示器可以属于多个联动分组，但同一分组不能重复创建。如果联动规则有重叠，以「显示器」列表中靠上的分组为准。
+Group name	分组名称
+Linked display group	联动显示器分组
+Delete group	删除分组
+Create group	创建分组
+Save group	保存分组
+Unavailable display (	不可用的显示器（
+No displays are available to link right now.	当前没有可用于联动的显示器。
+Enter a name for this linked display group.	请输入此联动显示器分组的名称。
+Select at least two displays to create a linked display group.	请至少选择两台显示器以创建联动显示器分组。
+A linked display group with this exact set of displays already exists.	已存在一组包含完全相同显示器的联动分组。
+No changes to save.	没有需要保存的更改。
+Use this group anywhere you select a display: main UI, schedules, app rules, and hotkeys.	在需要选择显示器的地方都可以使用此分组：主界面、计划任务、应用规则和热键。
+Local automation	本地自动化
+Control Display Dimmer from scripts, shortcuts, PowerShell, AutoHotkey, Task Scheduler, Stream Deck, and other local tools.	可通过脚本、快捷方式、PowerShell、AutoHotkey、任务计划程序、Stream Deck 等本地工具控制 Display Dimmer。
+Use dd_... target IDs in saved scripts. display_1 is only for quick tests.	在保存的脚本中使用 dd_... 形式的目标 ID。display_1 仅用于快速测试。
+Let the Display Dimmer command-line tool connect through the current user local named pipe.	允许 Display Dimmer 命令行工具通过当前用户的本地命名管道连接。
+Command-line tool	命令行工具
+Copy path	复制路径
+Copy the CLI executable path.	复制 CLI 可执行文件路径。
+Copy the CLI command.	复制 CLI 命令。
+Copy help	复制帮助
+GitHub examples	GitHub 示例
+Open Display Dimmer examples on GitHub.	在 GitHub 上打开 Display Dimmer 示例。
+Display target IDs	显示器目标 ID
+Target ID	目标 ID
+No displays are available right now.	当前没有可用的显示器。
+Set brightness command copied.	已复制设置亮度命令。
+Watch state changes	监视状态变化
+Watch command copied.	已复制监视命令。
+Copy all target IDs	复制所有目标 ID
+Copy all Local automation target IDs.	复制所有本地自动化目标 ID。
+Local automation commands and target IDs are available with Pro.	本地自动化的命令和目标 ID 需要专业版。
+Unlock Pro	解锁专业版
+Local automation requires Pro	本地自动化需要专业版
+Local automation is on	本地自动化已开启
+Local automation couldn't start	本地自动化无法启动
+Local automation is off	本地自动化已关闭
+Preview commands and display IDs. Unlock Pro to control Display Dimmer from scripts and Task Scheduler.	可预览命令和显示器 ID。解锁专业版即可通过脚本和任务计划程序控制 Display Dimmer。
+Scripts can connect while Display Dimmer is running.	Display Dimmer 运行时脚本才能连接。
+Turn Local automation off and back on, or restart Display Dimmer.	请关闭再开启本地自动化，或重启 Display Dimmer。
+Turn this on to let scripts and command-line tools control Display Dimmer.	开启后即可让脚本和命令行工具控制 Display Dimmer。
+Your theme preview ended	你的主题预览已结束
+Unlock Pro to use every Pro theme anytime.	解锁专业版即可随时使用所有专业版主题。
+Pro also includes:	专业版还包括：
+Microsoft Store	微软商店
+Buy with your Microsoft account	使用 Microsoft 账户购买
+Buy directly	直接购买
+via Lemon Squeezy	通过 Lemon Squeezy
+Limited-time offer:	限时优惠：
+Give each display its own schedules, app rules, and hotkeys	让每台显示器拥有独立的计划任务、应用规则和热键
+Add schedules, app rules, and hotkeys without free-tier limits	不再受免费版数量限制，可添加更多计划任务、应用规则和热键
+Use linked display groups, command-line access, and all Pro themes	使用联动显示器分组、命令行访问以及所有专业版主题
+Preview free	免费预览
+Free includes:	免费版包括：
+Pro unlocks:	专业版解锁：
+Pro lets you:	专业版让你可以：
+License key	许可证密钥
+Copy checkout link	复制结账链接
+Continue to checkout	继续结账
+Activate Pro	激活专业版
+Enter license key	输入许可证密钥
+Open checkout again	再次打开结账页面
+Contact support	联系支持
+We couldn't open your browser.	无法打开浏览器。
+Checkout link copied.	已复制结账链接。
+Activate Display Dimmer Pro	激活 Display Dimmer 专业版
+Paste the license key from your Display Dimmer Pro receipt email.	粘贴 Display Dimmer 专业版购买凭证邮件中的许可证密钥。
+Finish checkout in your browser, then paste the license key from your receipt email.	请在浏览器中完成结账，然后粘贴购买凭证邮件中的许可证密钥。
+Buy Display Dimmer Pro directly	直接购买 Display Dimmer 专业版
+Complete the secure purchase in your browser. Your license key will be emailed to you.	在浏览器中完成安全支付，许可证密钥将发送到你的邮箱。
+Opening browser...	正在打开浏览器...
+Checkout is not available right now.	当前无法结账。
+The checkout link could not be copied.	无法复制结账链接。
+Support could not be opened right now.	当前无法打开支持页面。
+Enter the license key from your receipt email.	请输入购买凭证邮件中的许可证密钥。
+License activation is not available right now.	当前无法激活许可证。
+Trouble purchasing Pro?	购买专业版遇到问题？
+The Microsoft Store didn’t complete the purchase. Try the Store again, or buy directly in your browser.	微软商店未能完成此次购买。请重试商店，或在浏览器中直接购买。
+The Microsoft Store still didn’t complete the purchase. You can buy directly instead or try the Store again.	微软商店仍未完成此次购买。你可以改为直接购买，或重试商店。
+Still having trouble?	仍有问题？
+Contact support@displaydimmer.com and we’ll help. The email will include the app version and Store result.	请联系 support@displaydimmer.com，我们会协助你。邮件中会自动包含应用版本和商店结果。
+Try Microsoft Store again	重试微软商店
+Restore Display Dimmer Pro	恢复 Display Dimmer 专业版
+The restore could not be completed.	恢复未能完成。
+Choose how you purchased Pro.	请选择你的专业版购买方式。
+Microsoft Store purchase	微软商店购买
+Restore using the Microsoft account currently signed in to the Store.	使用当前登录商店的 Microsoft 账户进行恢复。
+Restore from Microsoft Store	从微软商店恢复
+Direct purchase	直接购买
+Display Dimmer Pro is unlocked	Display Dimmer 专业版已解锁
+Thanks for supporting Display Dimmer. Your purchase helps fund continued development and improvements.	感谢你支持 Display Dimmer。你的购买将用于持续的开发与改进。
+Linked display groups, command-line access, and all Pro themes	联动显示器分组、命令行访问以及所有专业版主题
+Pro is linked to your Microsoft Store account. To restore it after reinstalling Windows or moving to another PC, sign in to the Store with the same account.	专业版已关联到你的 Microsoft 商店账户。在重装 Windows 或更换电脑后，使用同一账户登录商店即可恢复。
+Keep the license key from your receipt email. You’ll need it to activate Pro after reinstalling Windows or moving to another PC.	请妥善保存购买凭证邮件中的许可证密钥。在重装 Windows 或更换电脑后，激活专业版需要用到它。
+this display	此显示器
+Learn about HDR and monitor brightness.	了解 HDR 与显示器亮度的关系。
+Learn how to enable DDC/CI on this monitor.	了解如何在此显示器上启用 DDC/CI。
+Review display settings	查看显示器设置
+Finish setting up this app rule before copying it to another display.	请先完成此应用规则的设置，再复制到其他显示器。
+This fullscreen-on-host-display rule only works in All Displays mode and can't be copied.	此「全屏时作用于主机显示器」规则仅在「所有显示器」模式下有效，无法复制。
+This fullscreen-on-this-display rule can only be copied to other specific displays.	此「全屏时作用于本显示器」规则只能复制到其他指定显示器。
+A fullscreen-on-this-display rule already exists for every other display.	其他每台显示器都已有「全屏时作用于本显示器」规则。
+This rule can't be copied to any other displays.	此规则无法复制到任何其他显示器。
+A matching rule already exists for every available display.	每台可用显示器都已有匹配的规则。
+Fullscreen app - this display only	全屏应用 — 仅本显示器
+Applies only when a fullscreen application is detected on this display.	仅当在此显示器上检测到全屏应用时应用。
+Applies only on the display currently hosting the fullscreen application.	仅应用于当前承载全屏应用的显示器。
+Applies to this display when any fullscreen application is detected, even if fullscreen is on another display.	当检测到任何全屏应用时应用于此显示器，即使全屏在另一台显示器上。
+Applies when any fullscreen application is detected.	当检测到任何全屏应用时应用。
+Choose app or drop here	选择应用，或将程序拖到此处
+Select an app or fullscreen option for the unfinished rules.	请为未完成的规则选择应用或全屏选项。
+Select an app or fullscreen option for the unfinished rule.	请为未完成的规则选择应用或全屏选项。
+App rule changes not applied yet. Click Apply to save them.	应用规则更改尚未应用。点击「应用」保存。
+App rules are turned off. Turn them on in General.	应用规则已关闭。请在「通用」中开启。
+No app rules set up yet.	尚未设置任何应用规则。
+All app rules are currently turned off.	所有应用规则当前均已关闭。
+Checking app rule status…	正在检查应用规则状态…
+App rules are paused. Click Apply to resume them.	应用规则已暂停。点击「应用」恢复。
+No app rules are active right now on enabled displays.	当前在已启用的显示器上没有生效的应用规则。
+No app rules are active right now on All Displays.	当前在「所有显示器」上没有生效的应用规则。
+No app rules currently active on All Displays.	当前「所有显示器」上没有生效的应用规则。
+Different brightness levels are active	当前生效的亮度数值不一致
+, from All Displays).	，来自「所有显示器」）。
+% (multiple apps).	%（多个应用）。
+linked displays	联动显示器
+App rule	应用规则
+All displays are disabled - rules won't run.	所有显示器均已停用，规则不会运行。
+All displays in this group are disabled - rules won't run.	此分组中的所有显示器均已停用，规则不会运行。
+Display disabled - rules won't run.	显示器已停用，规则不会运行。
+Brightness rules are turned off.	亮度规则已关闭。
+Click to open General to enable schedules or app rules.	点击打开「通用」以启用计划任务或应用规则。
+Enable brightness control on at least one display.	请至少启用一台显示器的亮度控制。
+App rules are paused - click to resume.	应用规则已暂停，点击恢复。
+Schedules are paused - click to resume.	计划任务已暂停，点击恢复。
+App rule active	应用规则生效中
+Schedule levels are held — manage in Schedules.	计划任务的数值被挂起 — 请在「计划任务」中管理。
+Schedule active	计划任务生效中
+No schedules are active right now.	当前没有生效的计划任务。
+Next schedule	下一个计划任务
+No app rules are active right now.	当前没有生效的应用规则。
+Click to open App Rules.	点击打开「应用规则」。
+Click to create an app rule.	点击创建应用规则。
+Click to create a schedule.	点击创建计划任务。
+Paused on some displays.	在部分显示器上已暂停。
+. Paused on some displays.	。在部分显示器上已暂停。
+all enabled displays	所有已启用的显示器
+this link	此联动
+Enable displays	启用显示器
+Disable displays	停用显示器
+Toggle displays enabled	切换显示器启用状态
+Click to record	点击录制
+Press the keyboard brightness key. Press Esc to cancel.	请按下键盘亮度键。按 Esc 取消。
+Record a key combination for the unfinished hotkeys.	请为未完成的热键录制按键组合。
+Record a key combination for the unfinished hotkey.	请为未完成的热键录制按键组合。
+Hotkey changes not applied yet. Click Apply to save them.	热键更改尚未应用。点击「应用」保存。
+No hotkeys set up yet.	尚未设置任何热键。
+Hotkeys are set up.	热键已设置。
+Automation paused	自动化已暂停
+App rules and schedules are paused for the selected display scope.	所选显示器范围内，应用规则和计划任务均已暂停。
+App rules paused	应用规则已暂停
+App rules are paused for the selected display scope.	所选显示器范围内，应用规则已暂停。
+Schedules paused	计划任务已暂停
+Schedules are paused for the selected display scope. An active app rule may still control this scope.	所选显示器范围内，计划任务已暂停。生效中的应用规则可能仍会控制此范围。
+Manual color override active	手动色温覆盖已生效
+A manual temperature override is active for the selected display scope.	所选显示器范围已启用手动色温覆盖。
+Preset unavailable	预设不可用
+This preset is unavailable. Choose another before applying.	此预设不可用。应用前请另选一个。
+Try a Pro theme	试用专业版主题
+You've used today's free theme preview	今天免费的主题预览已用完
+. Unlock Pro to use every Pro theme anytime.	。解锁专业版即可随时使用所有专业版主题。
+Unlock every Pro theme	解锁所有专业版主题
+Unlock Pro to use every light and dark Pro theme anytime.	解锁专业版即可随时使用所有浅色和深色专业版主题。
+, or unlock Pro to use it and every Pro theme anytime.	，或解锁专业版以随时使用它以及所有专业版主题。
+Control this display from your keyboard	用键盘控制此显示器
+Pro removes the free-tier limit and lets each display have its own hotkeys.	专业版取消免费版限制，并允许每台显示器拥有独立热键。
+Add more keyboard shortcuts	添加更多键盘快捷方式
+Schedule this display separately	为此显示器单独设置计划任务
+Pro removes the free-tier limit and lets each display have its own schedules.	专业版取消免费版限制，并允许每台显示器拥有独立计划任务。
+Add more brightness schedules	添加更多亮度计划任务
+Create an app rule for this display	为此显示器创建应用规则
+Pro removes the free-tier limit and lets each display have its own app rules.	专业版取消免费版限制，并允许每台显示器拥有独立应用规则。
+Automate brightness for more apps	为更多应用自动调整亮度
+Adjust only the display showing fullscreen	仅调整正在显示全屏的显示器
+Free fullscreen rules react when fullscreen is detected. Pro adds host-display targeting.	免费版全屏规则在检测到全屏时触发。专业版新增主机显示器定向功能。
+Follow fullscreen apps between displays	让全屏应用在显示器之间跟随
+Leave displays not showing fullscreen unchanged	不改动未显示全屏的显示器
+Add more app rules and target individual displays	添加更多应用规则并定向到指定显示器
+With host-display targeting, you can:	使用主机显示器定向，你可以：
+Adjust this display only when it shows fullscreen	仅当此显示器显示全屏时调整
+Standard fullscreen detection remains free. Display-aware fullscreen rules are included with Pro.	标准全屏检测仍然免费。支持显示器识别的全屏规则包含在专业版中。
+Keep your other displays unchanged	保持其他显示器不变
+Stop this rule when fullscreen moves away	全屏移走后停止此规则
+Add more app rules and per-display automation	添加更多应用规则和按显示器自动化
+With display-aware fullscreen rules, you can:	使用支持显示器识别的全屏规则，你可以：
+Control selected displays together	统一控制所选显示器
+Pro unlocks custom linked display groups.	专业版可解锁自定义联动显示器分组。
+With linked groups, you can:	使用联动分组，你可以：
+Control Display Dimmer from scripts	通过脚本控制 Display Dimmer
+Commands stay on this PC under your Windows account.	命令仅在本机、以你的 Windows 账户运行。
+Local automation includes:	本地自动化包括：
+Try the blue light filter	试用蓝光过滤
+With Pro, you can:	使用专业版，你可以：
+You've used today's free blue light filter preview	今天免费的蓝光过滤预览已用完
+. Unlock Pro to use it anytime.	。解锁专业版即可随时使用。
+Unlock the blue light filter	解锁蓝光过滤
+Reduce blue light with warmer screen colors, and adjust color temperature for each display.	用更暖的屏幕色调减少蓝光，并可为每台显示器调整色温。
+Blue light filtering and color temperature control are off. Unlock Pro to keep using them.	蓝光过滤和色温控制已关闭。解锁专业版即可继续使用。
+Your blue light filter preview ended	你的蓝光过滤预览已结束
+Reduce blue light with warmer screen colors	用更暖的屏幕色调减少蓝光
+Tune each display separately	每台显示器单独调节
+Choose warm, neutral, or cool tones	选择暖色、中性或冷色
+Use linked display groups, blue light filtering, and local automation	使用联动显示器分组、蓝光过滤和本地自动化
+Give each display its own schedules and app rules	让每台显示器拥有独立的计划任务和应用规则
+Create custom linked display groups	创建自定义联动显示器分组
+Use blue light filtering, local automation, and every Pro theme	使用蓝光过滤、本地自动化以及所有专业版主题
+Give each display its own app rules and hotkeys	让每台显示器拥有独立的应用规则和热键
+Give each display its own schedules and hotkeys	让每台显示器拥有独立的计划任务和热键
+Choose exactly which displays are linked	精确选择要联动的显示器
+Use groups with schedules, app rules, and hotkeys	将分组用于计划任务、应用规则和热键
+Control each group from one slider	用一个滑块控制每个分组
+Target individual displays, All Displays, or linked groups	可定向到单台显示器、「所有显示器」或联动分组
+Set brightness and contrast from local commands	通过本地命令设置亮度和对比度
+Read current state and watch for changes	读取当前状态并监视变化
+Connect locally without opening a network API	本地连接，无需开放网络 API
+mixed sources	混合来源
+App levels are paused — click to resume.	应用数值已暂停 — 点击恢复。
+this scope	此范围
+Fullscreen host	全屏主机显示器
+You have reached the 300-item safety limit. Remove one to add another.	已达到 300 项的安全上限。请先移除一项再添加。
+Schedules are paused. Click Apply to resume them.	计划任务已暂停。点击「应用」恢复。
+Save changes	保存更改
+This rule can’t be copied to any other displays.	此规则无法复制到任何其他显示器。
+Schedules are turned off. Turn them on in General.	计划任务已关闭。请在「通用」中开启。
+Schedule changes not applied yet. Click Apply to save them.	计划任务更改尚未应用。点击「应用」保存。
+No schedules set up yet.	尚未设置任何计划任务。
+All schedules are currently turned off.	所有计划任务当前均已关闭。
+Schedules are active on one or more displays.	计划任务在一台或多台显示器上生效。
+No schedules are active right now on enabled displays.	当前在已启用的显示器上没有生效的计划任务。
+No schedules are active right now on All Displays.	当前在「所有显示器」上没有生效的计划任务。
+Windows policy requires Display Dimmer to start automatically and prevents turning it off here.	Windows 策略要求 Display Dimmer 自动启动，因此无法在此关闭。
+Display Dimmer startup is disabled by Windows policy and cannot be changed here.	Display Dimmer 的开机启动已被 Windows 策略禁用，无法在此更改。
+Windows did not allow Display Dimmer startup to be enabled. You may need to check Startup Apps in Windows Settings or Task Manager.	Windows 不允许启用 Display Dimmer 的开机启动。你可能需要检查 Windows 设置或任务管理器中的「启动应用」。
+Paused automation	自动化已暂停
+Active automation	自动化生效中
+New hotkey	新热键
+Choose an action	选择操作
+Choose a preset	选择预设
+Saved display targets	已保存的显示器目标
+Value required	必须填写数值
+This app rule is active now. Some levels or displays are paused. Click Apply to resume.	此应用规则当前生效。部分数值或显示器已暂停。点击「应用」恢复。
+This app rule is active now on one or more displays.	此应用规则在一台或多台显示器上生效。
+This app rule is paused. Click Apply to resume.	此应用规则已暂停。点击「应用」恢复。
+, active now	，当前生效
+Choose an app	选择应用
+Choose an app to finish this rule	选择应用以完成此规则
+Choose at least one level	请至少选择一项数值
+Leave unchanged	保持不变
+Selected display	所选显示器
+Choose saved display scope	选择已保存的显示器范围
+No displays included	未包含任何显示器
+No levels selected	未选择任何数值
+This schedule is active now. Some levels or displays are paused. Click Apply to resume.	此计划任务当前生效。部分数值或显示器已暂停。点击「应用」恢复。
+This schedule is active now on one or more displays.	此计划任务在一台或多台显示器上生效。
+This schedule is paused. Click Apply to resume.	此计划任务已暂停。点击「应用」恢复。
+This display may be difficult to see	此显示器可能不易看清
+One or more displays may be difficult to see	一台或多台显示器可能不易看清
+Revert now	立即还原
+Windows or another app reset screen brightness. Gamma Guard can watch for this and restore your brightness automatically.	Windows 或其他应用重置了屏幕亮度。Gamma Guard 可以监测这种情况并自动恢复你的亮度。
+Open Settings	打开设置
+Older presets use selection	旧版预设使用所选显示器
+＋  Save current as preset…	＋  将当前设置保存为预设…
+Manual override active	手动覆盖已生效
+That preset is no longer available.	该预设已不可用。
+This preset needs to be reviewed in Settings before it can be used.	此预设需先在「设置」中查看确认后才能使用。
+Other saved displays became unavailable.	其他已保存的显示器已不可用。
+None of this preset's saved displays are currently available and enabled.	此预设保存的显示器目前都不可用或未启用。
+Preset target changed during recall.	调用过程中预设目标发生了变化。
+No enabled display could use this preset.	没有已启用的显示器可使用此预设。
+This preset could not be fully applied to an available display.	此预设无法完整应用到可用显示器。
+Temperature is currently unavailable on this preset's saved display. No levels were changed.	此预设保存的显示器当前不支持色温。未更改任何数值。
+Other display hardware stayed busy.	其他显示器硬件持续忙碌。
+Display hardware stayed busy. Try this preset again.	显示器硬件持续忙碌。请重试此预设。
+No connected display has known levels to save yet.	尚无已连接的显示器具备可保存的已知数值。
+The current levels could not be captured. Please try again.	无法获取当前数值。请重试。
+Preset requested	已请求预设
+Partially requested	已部分请求
+Enable monitor to adjust temperature	请启用显示器以调整色温
+Unlock blue light filtering and color temperature with Display Dimmer Pro	使用 Display Dimmer 专业版解锁蓝光过滤和色温调节
+Enable monitor to adjust brightness	请启用显示器以调整亮度
+Enable monitor to adjust contrast	请启用显示器以调整对比度
+Hide to tray	隐藏到托盘
+Click to open General to enable app rules.	点击打开「通用」以启用应用规则。
+Select application	选择应用程序
+This is an Internet shortcut (.url). Display Dimmer needs the actual app/game .exe or a .lnk shortcut that targets it.	这是 Internet 快捷方式（.url）。Display Dimmer 需要实际的应用程序/游戏 .exe，或指向它的 .lnk 快捷方式。
+Enter a valid app path (.exe or .lnk)	请输入有效的应用路径（.exe 或 .lnk）
+Custom levels	自定义数值
+The selected preset is unavailable or requires Pro. Choose Custom levels or a saved Pro preset before applying.	所选预设不可用或需要专业版。应用前请选择「自定义数值」或已保存的专业版预设。
+Physical display identity changed again during Settings reload.	设置重新加载期间，物理显示器标识再次发生变化。
+Display cards do not match the current physical display roster.	显示器卡片与当前物理显示器列表不一致。
+The retired physical display identity remains in the rebuilt roster.	已停用的物理显示器标识仍留在重建后的列表中。
+Display setting could not be applied. Please try again.	显示器设置无法应用。请重试。
+App rules	应用规则
+Keyboard brightness key detection is unavailable right now.	当前无法检测键盘亮度键。
+Brightness Up	调高亮度
+Brightness Down	调低亮度
+No brightness key detected. Some keyboards do not expose Fn brightness keys to apps. Use a normal hotkey instead.	未检测到亮度键。部分键盘不会向应用公开 Fn 亮度键，请改用普通热键。
+Keyboard brightness keys are only available for Brightness up/down actions.	键盘亮度键仅适用于「调高亮度/调低亮度」操作。
+Press the keyboard brightness key, or press Esc to cancel.	请按下键盘亮度键，或按 Esc 取消。
+Applying saved presets requires Display Dimmer Pro. Leave the saved preset hotkey unchanged or switch to a Free action.	应用已保存的预设需要 Display Dimmer 专业版。请保持该预设热键不变，或改为免费版可用的操作。
+Choose a saved preset for this hotkey.	为此热键选择已保存的预设。
+That preset no longer exists. Choose another saved preset.	该预设已不存在。请另选一个已保存的预设。
+Choose a display target for this older preset hotkey.	为此旧版预设热键选择显示器目标。
+Apply this hotkey before enabling it.	请先应用此热键再启用。
+That hotkey is not valid.	该热键无效。
+That hotkey is already used by another hotkey rule.	该热键已被另一条热键规则占用。
+This switch could not be applied. Its saved setting has been restored.	此开关无法应用，已恢复为保存的设置。
+Group disabled - rules won't run.	分组已停用，规则不会运行。
+Linked display group setting could not be saved. Please try again.	联动显示器分组设置无法保存。请重试。
+Preset order could not be saved. Please try again.	预设顺序无法保存。请重试。
+Presets could not be saved. Check Pro access and try again.	预设无法保存。请检查专业版权限后重试。
+Presets could not be saved. Please try again.	预设无法保存。请重试。
+This preset is used by an automation or hotkey. Remove or replace that reference before deleting it.	此预设正被某个自动化或热键使用。删除前请先移除或替换该引用。
+. Changes update linked actions after Apply.	。更改将在点击「应用」后更新关联操作。
+Display Dimmer direct license help	Display Dimmer 直接购买许可证帮助
+Please do not include your full license key in this email.	请不要在邮件中包含完整的许可证密钥。
+Display Dimmer Pro purchase help	Display Dimmer 专业版购买帮助
+Click to open General to enable schedules.	点击打开「通用」以启用计划任务。
+App rules take priority for the levels they include. Schedules can control the other levels. Applying schedules can take control back from app rules.	对于各自包含的数值，应用规则优先。计划任务可控制其他数值。应用计划任务可从应用规则手中重新接管控制权。
+Finish or cancel brightness key detection before applying.	应用前请先完成或取消亮度键检测。
+What's changed	更新内容
+Here are the biggest changes in this update.	以下是本次更新的主要变化。
+Brightness control disabled — hidden from main window	亮度控制已停用 — 已从主窗口隐藏
+Brightness control enabled	亮度控制已启用
+Turn on to show and control this display.	开启后将在主窗口显示并控制此显示器。
+Turn off to hide this display from the main window and stop controlling it.	关闭后将从主窗口隐藏此显示器并停止控制它。
+Monitor does not support DDC/CI	显示器不支持 DDC/CI
+Use hardware brightness (DDC/CI)	使用硬件亮度（DDC/CI）
+This monitor does not support DDC/CI hardware brightness control.	此显示器不支持 DDC/CI 硬件亮度控制。
+Turn on to use hardware brightness (DDC/CI).	开启后使用硬件亮度（DDC/CI）。
+Turn off to use software brightness.	关闭后使用软件亮度。
+Built-in laptop displays usually do not support DDC/CI brightness. Software dimming is being used.	笔记本内置显示屏通常不支持 DDC/CI 亮度，当前使用软件调光。
+This built-in display does not support hardware brightness through DDC/CI. Gamma brightness is being used instead.	此内置显示屏不支持通过 DDC/CI 调节硬件亮度，改用 gamma 亮度。
+DDC/CI hardware brightness was temporarily disabled after a failure. Software dimming is being used until you try again.	DDC/CI 硬件亮度在失败后已被暂时停用。在你重试之前使用软件调光。
+DDC/CI hardware brightness is temporarily disabled after a failure. Gamma brightness is being used until you try again.	DDC/CI 硬件亮度在失败后已被暂时停用。在你重试之前使用 gamma 亮度。
+Checking brightness rules...	正在检查亮度规则...
+Try again	重试
+Try DDC/CI brightness again for this display	为此显示器重试 DDC/CI 亮度
+Create a linked display group	创建联动显示器分组
+Unlock Pro to create a linked display group	解锁专业版以创建联动显示器分组
+All linked display groups already exist	所有联动显示器分组均已存在
+Connect another display to create a linked display group	连接另一台显示器以创建联动显示器分组
+Link disabled	联动已停用
+Link enabled	联动已启用
+This link is paused. Turn it on to control these displays together again.	此联动已暂停。开启后可再次统一控制这些显示器。
+Control these displays together. Turn off to pause the link without deleting it.	统一控制这些显示器。关闭可暂停联动而不删除它。
+Linked displays: no connected displays	联动显示器：没有已连接的显示器
+Linked displays: ...	联动显示器：...
+Duration in seconds, from 1 to 60.	时长（秒），1 到 60。
+Enter a whole number from 1 to 60 seconds. The previous duration is still in use.	请输入 1 到 60 之间的整数秒数。当前仍在使用上一次的时长。
+Expand level feedback options	展开数值反馈选项
+Collapse level feedback options	收起数值反馈选项
+Command line	命令行
+Hotkeys and command line	热键和命令行
+No sources selected	未选择任何来源
+Display Dimmer couldn't open Local automation right now.	Display Dimmer 当前无法打开本地自动化。
+Automatically start Display Dimmer when you sign in to Windows.	登录 Windows 后自动启动 Display Dimmer。
+Show the Display Dimmer icon in the Windows notification area (system tray). Required for "Start in tray" and automatic hiding.	在 Windows 通知区域（系统托盘）显示 Display Dimmer 图标。使用「从托盘启动」和自动隐藏功能需要此选项。
+When Display Dimmer is opened from the system tray, hide it after you switch away. Requires "Show tray icon" to be enabled.	从系统托盘打开 Display Dimmer 后，切换到其他窗口时自动隐藏。需要开启「显示托盘图标」。
+When Display Dimmer starts with Windows, show the main window.	随 Windows 启动时显示主窗口。
+Re-apply your saved brightness levels each time Display Dimmer is launched.	每次启动 Display Dimmer 时重新应用已保存的亮度数值。
+OFF: All Displays brightness slider uses absolute mode and sets All Displays to the same brightness.	关闭：「所有显示器」亮度滑块使用绝对模式，会将所有显示器设为同一亮度。
+Keep the Display Dimmer window on top of other application windows.	让 Display Dimmer 窗口始终位于其他应用窗口之上。
+Show or hide the contrast slider in the main window. Your current contrast level stays applied while it is hidden.	在主窗口中显示或隐藏对比度滑块。隐藏期间当前对比度数值仍会生效。
+When you exit Display Dimmer, reset DDC/CI enabled displays to their default hardware brightness.	退出 Display Dimmer 时，将启用 DDC/CI 的显示器恢复为默认硬件亮度。
+Enable time-based brightness schedules.	启用基于时间的亮度计划任务。
+Enable app brightness rules.	启用按应用调整亮度的规则。
+Enable hotkey support. Custom global hotkeys are configured from the Hotkeys page.	启用热键支持。自定义全局热键在「热键」页中配置。
+Show or hide the temperature slider in the main window. Your current temperature stays applied while it is hidden.	在主窗口中显示或隐藏色温滑块。隐藏期间当前色温仍会生效。
+Best-effort guard that detects when Windows or the GPU resets gamma brightness and re-applies your current Display Dimmer level.	尽力检测 Windows 或 GPU 是否重置了 gamma 亮度，并重新应用你当前的 Display Dimmer 数值。
+"Start in tray" requires "Show tray icon" to be enabled.	「从托盘启动」需要开启「显示托盘图标」。
+When Display Dimmer starts with Windows, keep it in the system tray instead of opening the main window. Requires "Show tray icon" to be enabled.	随 Windows 启动时保持在系统托盘中，而不打开主窗口。需要开启「显示托盘图标」。
+Click and press a key combination.	点击后按下按键组合。
+Hotkeys are turned off. Turn them on in General.	热键已关闭。请在「通用」中开启。
+Presets are included with Display Dimmer Pro.	预设功能包含在 Display Dimmer 专业版中。
+You have reached the preset safety limit.	已达到预设数量上限。
+New preset	新预设
+Current displays are not ready yet. Try again after they reconnect.	当前显示器尚未就绪。请在它们重新连接后重试。
+No current display levels are available to save as a preset.	当前没有可用于保存为预设的显示器数值。
+Choose a connected display before converting this older preset.	转换此旧版预设前，请先选择一台已连接的显示器。
+Brightness · Temperature	亮度 · 色温
+This preset is used by an automation or hotkey. Remove or replace that reference before removing it.	此预设正被某个自动化或热键使用。移除前请先移除或替换该引用。
+You have reached the 300-preset safety limit. Remove one to add another.	已达到 300 个预设的上限。请先移除一个再添加。
+Create a preset draft from current display levels. Click Apply to save it.	根据当前显示器数值创建预设草稿。点击「应用」保存。
+Display Dimmer Pro is active	Display Dimmer 专业版已激活
+Presets, automation, and display options.	预设、自动化与显示选项。
+All Pro features are unlocked.	所有专业版功能均已解锁。
+Recall setups from the main window, automations or hotkeys.	可从主窗口、自动化或热键调用这些方案。
+Open presets	打开预设
+Color temperature	色温
+Blue-light filtering, with a temperature for each display.	蓝光过滤，并可分别为每台显示器设置色温。
+Open temperature	打开色温
+Preview temperature	预览色温
+Schedules & app rules	计划任务与应用规则
+Go beyond 1 schedule and 1 app rule.	突破 1 条计划任务和 1 条应用规则的限制。
+Set up schedules and app rules for your displays.	为你的显示器设置计划任务和应用规则。
+Open schedules	打开计划任务
+Use more than 2 hotkeys for levels and presets.	为数值和预设使用超过 2 个热键。
+Assign shortcuts to levels and saved presets.	为数值和已保存的预设分配快捷方式。
+Open hotkeys	打开热键
+Command line & local automation	命令行与本地自动化
+Use scripts and other local tools.	使用脚本和其他本地工具。
+Open automation	打开自动化
+View GitHub docs	查看 GitHub 文档
+Pro themes	专业版主题
+Personalize Display Dimmer with all Pro themes.	使用所有专业版主题个性化 Display Dimmer。
+Open themes	打开主题
+Preview themes	预览主题
+For multiple displays	多显示器场景
+Display targeting & linked groups	显示器定向与联动分组
+Per-display targeting, fullscreen app targeting and linked groups.	按显示器定向、全屏应用定向与联动分组。
+Per-display settings and fullscreen app targeting.	按显示器设置与全屏应用定向。
+Rate Display Dimmer	评价 Display Dimmer
+Are you finding Display Dimmer helpful?	你觉得 Display Dimmer 好用吗？
+If so, a quick Microsoft Store rating would mean a lot.	如果好用，在微软商店给个评分对我们帮助很大。
+• Helps shape future fixes and features.	• 有助于决定未来的修复与功能方向。
+Don't ask again	不再询问
+Rate now	立即评价

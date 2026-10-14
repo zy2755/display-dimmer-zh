@@ -1,0 +1,20 @@
+# 用户自己准备的官方文件，不进仓库
+# 见 orig/README.md 与「使用说明」
+orig/*.dll
+orig/*.json
+orig/*.exe
+orig/*.config
+
+# 绿色版程序目录（从商店包复制出来的官方文件）
+app/
+
+# 构建产物
+out/
+tools/BamlTool/bin/
+tools/BamlTool/obj/
+
+# 中间文件
+dict/_merged.tsv
+*.bak
+__pycache__/
+*.pyc

@@ -1,0 +1,16 @@
+# 换行符锁定：不同文件类型要求不一样，别让 Git 自作主张
+
+# 词典必须是 LF —— 生成脚本用 newline='\n' 写文件，且条目里有 \n \r 这类转义。
+# 若被转成 CRLF，末尾会多出 \r，导致匹配失败或译文带回车。
+*.tsv text eol=lf
+
+# PowerShell 5.1 对 LF 脚本的兼容性不如 CRLF，且需要 BOM（已加）
+*.ps1 text eol=crlf
+
+# 源码与文档统一 LF
+*.cs   text eol=lf
+*.csproj text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+
+*.tsv -diff

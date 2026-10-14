@@ -1,0 +1,135 @@
+Connected to: 	已连接：
+No brightness rules set up for 	尚无亮度规则：
+All brightness rules for 	已关闭的全部亮度规则（范围：
+All schedules for 	已关闭的全部计划任务（范围：
+All app rules for 	已关闭的全部应用规则（范围：
+ are turned off.	）。
+Click to manage schedules or app rules for 	点击管理以下范围中的计划任务或应用规则：
+Click to open App Rules for 	点击打开以下范围中的应用规则：
+Click to open Schedules for 	点击打开以下范围中的计划任务：
+Next schedule for enabled displays — 	已启用的显示器：下一计划任务 — 
+Next schedule on All Displays — 	所有显示器：下一计划任务 — 
+Next schedule on 	下一计划任务 · 
+% at 	%，时间 
+ at 	，时间 
+Schedule active on All Displays — 	所有显示器：计划任务生效中 — 
+Schedule active on 	计划任务生效中 · 
+Schedule active — 	计划任务生效中 — 
+Schedule active for enabled displays — 	已启用的显示器：计划任务生效中 — 
+% until 	%，持续至 
+ until 	，持续至 
+No schedules are active right now on 	当前没有生效的计划任务 · 
+App rule active - 	应用规则生效中 — 
+App rules active for enabled displays - 	已启用的显示器：应用规则生效中 — 
+App rule active for enabled displays - 	已启用的显示器：应用规则生效中 — 
+App rule active on All Displays — 	所有显示器：应用规则生效中 — 
+App rules active on All Displays - 	所有显示器：应用规则生效中 — 
+App rule active on some displays - 	部分显示器：应用规则生效中 — 
+App rules active on some displays - 	部分显示器：应用规则生效中 — 
+App rule active on 	应用规则生效中 · 
+App rules active on 	应用规则生效中 · 
+Fullscreen host rule active - 	全屏主机规则生效中 — 
+Different brightness levels are active - 	当前生效的亮度数值不一致 — 
+% on 	% · 
+No app rules are active right now on 	当前没有生效的应用规则 · 
+No app rules currently active on 	当前没有生效的应用规则 · 
+% (	%（
+ (from 	（来自 
+ (from All Displays)	（来自「所有显示器」）
+ (from All Displays).	（来自「所有显示器」）。
+, from 	，来自 
+, from All Displays).	，来自「所有显示器」）。
+).	）。
+Neutral	中性
+Warm	暖色
+Cool	冷色
+Neutral · 50%	中性 · 50%
+% brightness	% 亮度
+% contrast	% 对比度
+1 display	1 台显示器
+2 displays	2 台显示器
+ · Pro	 · 专业版
+ · modified	 · 已修改
+ · partial	 · 部分
+Preset: 	预设：
+Theme:	主题：
+Preview · 	预览 · 
+Activating...	正在激活...
+Current: 	当前版本：
+Latest:  	最新版本：
+Free:	免费版：
+For activation help, visit 	如需激活帮助，请访问 
+Already have a key? 	已有密钥？ 
+Can't find your key? 	找不到密钥？ 
+Target: 	目标：
+ (linked group): 	（联动分组）：
+ is included with Pro.\r\n\r\nPreview it free for 	 包含在专业版中。\r\n\r\n可免费预览 
+ today, or unlock Pro to keep it and use every Pro theme anytime.	，或解锁专业版以永久使用它以及所有专业版主题。
+ today, or unlock Pro to use every Pro theme anytime.	，或解锁专业版以随时使用所有专业版主题。
+ today, or unlock Pro to use it anytime.	，或解锁专业版以随时使用。
+Preview a Pro theme free for 	免费预览专业版主题 
+Preview blue light filtering and color temperature control free for 	免费预览蓝光过滤和色温控制 
+Your next free theme preview is available in 	下次免费主题预览将在 
+Your next free blue light filter preview is available in 	下次免费蓝光过滤预览将在 
+. Unlock Pro to use every Pro theme anytime.	 后可用。解锁专业版即可随时使用所有专业版主题。
+. Unlock Pro to use it anytime.	 后可用。解锁专业版即可随时使用。
+Try the 	试试 
+Unlock the 	解锁 
+ theme	 主题
+You can preview 	你可以预览 
+, or unlock Pro to use it and every Pro theme anytime.	，或解锁专业版以随时使用它以及所有专业版主题。
+ is included with Pro. Unlock Pro to use it and every Pro theme anytime.	 包含在专业版中。解锁专业版即可随时使用它以及所有专业版主题。
+Your preview ended, so your previous theme is back.\n\nUnlock Pro to switch back to 	你的预览已结束，已恢复到之前的主题。\n\n解锁专业版即可切回 
+ and keep it.	 并永久保留。
+Your previous theme is back.\n\nUnlock Pro to use every Pro theme anytime.	已恢复之前的主题。\n\n解锁专业版即可随时使用所有专业版主题。
+\n\nYour next free preview is available in 	\n\n下次免费预览将在 
+Pro theme preview ends in 	专业版主题预览剩余 
+Blue light filter and color temperature preview ends in 	蓝光过滤和色温预览剩余 
+ A manual temperature override is also active.	 手动色温覆盖也已生效。
+ Click Apply to resume.	 点击「应用」恢复。
+ Paused on some displays.	 在部分显示器上已暂停。
+ Recall failed on 	调用失败，涉及 
+ Temperature was unavailable on 	色温不可用于 
+ display scope was not restored.	 显示器范围未能恢复。
+ display(s) were unavailable, disabled, or ambiguous.	 台显示器不可用、已停用或存在歧义。
+ display(s).	 台显示器。
+ has an unfinished app rule.	 有未完成的应用规则。
+ has unfinished app rules.	 有未完成的应用规则。
+ has an unfinished hotkey.	 有未完成的热键。
+ is missing the current physical display scope.	 缺少当前物理显示器范围。
+ is not a valid app	 不是有效的应用
+ is only for quick tests.	 仅用于快速测试。
+ saved in this preset. The selector above only organizes hotkeys.	 已保存在此预设中。上方的选择器仅用于整理热键。
+ selected scope is not present in its choices.	 所选范围不在选项中。
+ still contains the retired display identity.	 仍包含已停用的显示器标识。
+ target IDs in saved scripts. 	 形式的目标 ID。
+ displays	 台显示器
+ varies	 各不相同
+ (unknown)	（未知）
+ (varies)	（各不相同）
+ · Some app levels paused	 · 部分应用数值已暂停
+ · Some app levels paused. Click Apply to resume.	 · 部分应用数值已暂停。点击「应用」恢复。
+ apps active 	 个应用生效中 
+ — active on 	 — 生效于 
+ — click to resume	 — 点击恢复
+Expand or collapse preset 	展开或收起预设 
+Current hotkey: 	当前热键：
+This row is set to 	此行设置为 
+The saved hotkey cannot be enabled. 	已保存的热键无法启用。
+Drag app rule cards by their icons to choose which rule is checked first for 	拖动应用规则卡片的图标，可调整以下范围的规则检查顺序：
+Drag schedule cards by their icons to choose which rule is checked first for 	拖动计划任务卡片的图标，可调整以下范围的规则检查顺序：
+ again in 	，下次可用：
+Linked displays: 	联动显示器：
+Linked Display Group 	联动显示器分组 
+ linked displays connected	 台联动显示器已连接
+All displays for 	以下范围的全部显示器：
+Give this display its own shortcuts for brightness, contrast, resets, and automation.\r\n\r\nFree includes 2 hotkeys for All Displays.\r\nPro removes the free-tier limit and lets each display have its own hotkeys.	让此显示器拥有独立的亮度、对比度、重置和自动化快捷键。\r\n\r\n免费版为「所有显示器」提供 2 个热键。\r\n专业版取消免费版限制，并允许每台显示器拥有独立热键。
+Create the shortcuts your setup needs for brightness, contrast, resets, automation, and display control.\r\n\r\nFree includes 2 hotkeys for All Displays.\r\nPro removes the free-tier limit and lets each display have its own hotkeys.	为你的使用场景创建所需的快捷键：亮度、对比度、重置、自动化以及显示器控制。\r\n\r\n免费版为「所有显示器」提供 2 个热键。\r\n专业版取消免费版限制，并允许每台显示器拥有独立热键。
+Set brightness changes for this display without changing the others.\r\n\r\nFree includes 1 schedule for All Displays.\r\nPro removes the free-tier limit and lets each display have its own schedules.	单独设置此显示器的亮度变化，不影响其他显示器。\r\n\r\n免费版为「所有显示器」提供 1 条计划任务。\r\n专业版取消免费版限制，并允许每台显示器拥有独立计划任务。
+Let Display Dimmer adjust brightness automatically throughout your day.\r\n\r\nFree includes 1 schedule for All Displays.\r\nPro removes the free-tier limit and lets each display have its own schedules.	让 Display Dimmer 全天自动调整亮度。\r\n\r\n免费版为「所有显示器」提供 1 条计划任务。\r\n专业版取消免费版限制，并允许每台显示器拥有独立计划任务。
+Change this display's brightness when an app is active.\r\n\r\nFree includes 1 app rule for All Displays.\r\nPro removes the free-tier limit and lets each display have its own app rules.	某个应用运行时，改变此显示器的亮度。\r\n\r\n免费版为「所有显示器」提供 1 条应用规则。\r\n专业版取消免费版限制，并允许每台显示器拥有独立应用规则。
+Automatically use different brightness settings for more of your apps.\r\n\r\nFree includes 1 app rule for All Displays.\r\nPro removes the free-tier limit and lets each display have its own app rules.	为更多应用自动应用不同的亮度设置。\r\n\r\n免费版为「所有显示器」提供 1 条应用规则。\r\n专业版取消免费版限制，并允许每台显示器拥有独立应用规则。
+Apply this rule only to the display currently showing a fullscreen app. If fullscreen moves, the rule follows it while other displays remain unchanged.\r\n\r\nFree fullscreen rules react when fullscreen is detected. Pro adds host-display targeting.	此规则仅作用于当前显示全屏应用的显示器。全屏移动时规则会跟随，其他显示器保持不变。\r\n\r\n免费版全屏规则在检测到全屏时触发。专业版新增主机显示器定向功能。
+Apply this rule to this display only while a fullscreen app is shown here. Fullscreen activity on another display will not trigger it.\r\n\r\nStandard fullscreen detection remains free. Display-aware fullscreen rules are included with Pro.	仅当此显示器上有全屏应用时才应用此规则。其他显示器上的全屏活动不会触发它。\r\n\r\n标准全屏检测仍然免费。支持显示器识别的全屏规则包含在专业版中。
+Create a group for the monitors you want to adjust and automate together.\r\n\r\nAll Displays control is free.\r\nPro unlocks custom linked display groups.	把你想要一起调节和自动化的显示器编成一组。\r\n\r\n「所有显示器」控制是免费的。\r\n专业版解锁自定义联动显示器分组。
+Use scripts, Task Scheduler, sensors, and other local tools to control Display Dimmer.\r\n\r\nCommands stay on this PC under your Windows account.	通过脚本、任务计划程序、传感器等本地工具控制 Display Dimmer。\r\n\r\n命令仅在本机、以你的 Windows 账户运行。
