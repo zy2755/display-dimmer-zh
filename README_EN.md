@@ -2,9 +2,11 @@
 
 A community-made localization toolkit that translates the UI of
 [Display Dimmer](https://apps.microsoft.com/detail/9nbwhfcln6cm) — a Windows brightness
-control utility for external monitors — into Simplified Chinese.
-**654 UI strings** are covered: main window, settings pages, tray menu, schedules,
-app rules, hotkeys, the Pro dialog, and release notes.
+control utility for external monitors — into Simplified Chinese. **877 translated strings** — 253 from BAML UI resources and 624
+string literals in code — plus 39 method-scoped rules for strings too short to replace
+globally (`"."`, `" ("`).
+Covers the main window, settings pages, tray menu, schedules, app rules, hotkeys,
+the Pro dialog, and release notes.
 
 > **This repository ships tools, not software.**
 > It contains **no binaries of Display Dimmer**. You install the official app from the
