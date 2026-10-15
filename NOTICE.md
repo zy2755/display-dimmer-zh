@@ -31,6 +31,23 @@ Display Dimmer 的免费版功能已经相当完整，Pro 版是一次性买断�
 `dict/` 下的对照表包含从原程序中提取的英文原文片段。这些片段仅为完成本地化
 所必需的最小引用，其著作权仍归原作者所有。翻译部分由本仓库贡献者撰写。
 
+## 作者已知悉并许可
+
+2026-10-15，我们通过 `support@displaydimmer.com` 联系了 Display Dimmer 的作者
+**Nathan Hansman**，说明了本仓库的内容并附上完整翻译词典。作者当日回复：
+
+> "I have absolutely no problem with you keeping the repository up."
+> （保留这个仓库我完全没有意见。）
+
+> "Official localization is something I have planned for the future...
+> When I do get to it, your translations would be a fantastic starting point
+> and I'd definitely be interested in making use of them."
+> （官方本地化在我的未来计划里……等我开始做的时候，你的翻译会是一个极好的起点，
+> 我很有兴趣用上它们。）
+
+**但请注意**：作者的许可**不等于**授权分发 Display Dimmer 软件本身。
+本仓库仍然不包含、也永远不会包含任何原软件的二进制文件。
+
 ## 下架请求
 
 如果你是 Display Dimmer 的权利人，认为本仓库内容侵犯了你的权益，请通过
